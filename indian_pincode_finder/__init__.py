@@ -1,1 +1,1 @@
-from indian_pincode_finder import *
+from indian_pincode_finder.indian_pincode_finder import IndianPincodeFinder
