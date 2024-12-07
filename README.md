@@ -3,6 +3,8 @@ Initialise the IndianPincodeFinder as below
 IndianPincodeFinderObj = IndianPincodeFinder()
 
 These are the methods we can look for
+
+
 print(IndianPincodeFinderObj.get_all_states())
 print(IndianPincodeFinderObj.get_districts_by_states('Delhi'))
 print(IndianPincodeFinderObj.get_all_districts())
