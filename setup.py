@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="indian_pincode_finder",  # Replace with your module's name
-    version="0.1.2",  # Your module's version
+    version="0.2.0",  # Your module's version
     author="Honey Kumar",
     author_email="sdithoney@gmail.com",
     description="Finds state, city , district and pincode of India",
@@ -19,7 +19,7 @@ setup(
             "pandas>=2.2.3",      # Example: Data analysis
         ],
     package_data={
-        "indian_pincode_finder": ["data/india_pincode_final.csv"],  # Include all CSV files in the `data/` directory
+        "indian_pincode_finder.data": ["india_pincode_final.csv"],  # Include all CSV files in the `data/` directory
     },
     include_package_data=True,
 )

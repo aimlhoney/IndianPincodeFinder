@@ -8,4 +8,5 @@ indian_pincode_finder.egg-info/SOURCES.txt
 indian_pincode_finder.egg-info/dependency_links.txt
 indian_pincode_finder.egg-info/requires.txt
 indian_pincode_finder.egg-info/top_level.txt
+indian_pincode_finder/data/__init__.py
 indian_pincode_finder/data/india_pincode_final.csv

@@ -13,6 +13,7 @@ class IndianPincodeFinder:
             print("Error while loading data...")
 
     def __get_data_frame__(self) -> pd.DataFrame:
+        print(__package__)
         with importlib.resources.open_text(self.dir, self.file) as csv_file:
             return pd.read_csv(csv_file)
 
