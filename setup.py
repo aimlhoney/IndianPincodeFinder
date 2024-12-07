@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="indian_pincode_finder",  # Replace with your module's name
-    version="0.1.1",  # Your module's version
+    version="0.1.2",  # Your module's version
     author="Honey Kumar",
     author_email="sdithoney@gmail.com",
     description="Finds state, city , district and pincode of India",
