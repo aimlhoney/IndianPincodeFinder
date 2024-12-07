@@ -2,12 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="indian_pincode_finder",  # Replace with your module's name
-    version="0.2.0",  # Your module's version
+    version="0.2.1",  # Your module's version
     author="Honey Kumar",
     author_email="sdithoney@gmail.com",
     description="Finds state, city , district and pincode of India",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
+    url="https://github.com/aimlhoney/IndianPincodeFinder",
     packages=find_packages(),  # Automatically finds all sub-packages
     classifiers=[
         "Programming Language :: Python :: 3",
